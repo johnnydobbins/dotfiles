@@ -13,9 +13,6 @@
 # Ctrl-A or Home: insert at line beginning like in emacs mode
 "\C-A": vi-insert-beg
 
-set editing-mode vi
-set keymap vi
-set meta-flag on
 set completion-ignore-case on
 set convert-meta off
 set input-meta on
