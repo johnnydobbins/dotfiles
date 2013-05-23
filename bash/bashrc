@@ -210,7 +210,7 @@ if [[ -n "$PS1" ]] ; then
     [[ -r $rvm_path/scripts/completion ]] && . $rvm_path/scripts/completion
     export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
-    eval "$($HOME/.rbenv/bin/rbenv init init -)"
+    eval "$($HOME/.rbenv/bin/rbenv init -)"
 
     export QUEUE="csv_importer,pre_calculator,alarms,csv_importer_backlogged,pre_calculator_backlogged,alarms_backlogged,auto_mapper,setup,data_export,*"
     export NODE_PATH=/usr/local/lib/node_modules
