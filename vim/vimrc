@@ -309,7 +309,7 @@
 
     "colorscheme solarized
     "colorscheme mustang
-    colorscheme molokai
+    "colorscheme molokai
 
   " The PC is fast enough, do syntax highlight syncing from start
   autocmd BufEnter * :syntax sync fromstart
@@ -534,10 +534,10 @@
 
 " Rainbows:
 "   https://github.com/kien/rainbow_parentheses.vim
-  au VimEnter * RainbowParenthesesToggle
-  au Syntax * RainbowParenthesesLoadRound
-  au Syntax * RainbowParenthesesLoadSquare
-  au Syntax * RainbowParenthesesLoadBraces
+  "au VimEnter * RainbowParenthesesToggle
+  "au Syntax * RainbowParenthesesLoadRound
+  "au Syntax * RainbowParenthesesLoadSquare
+  "au Syntax * RainbowParenthesesLoadBraces
 
 " Ack:
   nnoremap <leader>g :Ack!<space>
